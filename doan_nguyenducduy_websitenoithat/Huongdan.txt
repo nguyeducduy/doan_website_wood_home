@@ -1,0 +1,10 @@
+﻿Các bạn vào theo đường dẫn admin->app->config và mở file database.php để cấu hình lại host, dbname, hostname, username, password
+database mà mấy bạn đã cấu hình, database và dbname là tên csdl bạn import trong thư mục csdl vào máy chủ của bạn.
+Tương tự làm thế với thư mục database.php trong thư mục application->config.
+Tiếp theo vào application->helpers mở file common_helper.php thêm email của bạn thay cho 'youremail' và mật khẩu cho 'yourpass'
+Để khi ai đăng kí thành viên sẽ gửi link kích hoạt về email của họ. Và bạn còn phải cấu hình lại email trên máy chủ local của bạn nữa
+đối với Xampp thì vào php.ini và file sendmail để cấu hình.
+Để vào trang chủ gõ: localhost:8080/fashion (mình đặt cổng 8080)
+Để vào trang admin các bạn /admin sau fashion
+tài khoản là: admin
+pass:12345678
